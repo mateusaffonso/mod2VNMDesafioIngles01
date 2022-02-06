@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Monteserrat", Roboto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEC591;
+    color: black;
+    height: 3rem;
+}
+
+.logo-FRIDA{
+    font-size: 1.35rem;
+    margin-left: 2rem;
+
+}
+header nav {
+    color: black;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    
+}
+
+header nav ul li{
+    color: black;
+}
+
+.img-main{
+    background: url("https://c5s9i6d5.stackpathcdn.com/wp-content/uploads/2019/12/FridaKahloParaInconformistas_banner.png") no-repeat;
+    height: 19rem;
+    
+}
+
+.home{
+    background-color: #F5DEB3;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-frida{
+    background-color: #F5F5DC;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-frida p{
+    font-size: 1.2rem;
+}
+
+
